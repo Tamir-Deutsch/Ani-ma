@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="he">
+
+<head>
+    <meta charset="utf-8" />
+    <title> אני-מה דף הבית</title>
+    <meta name="description" content="אתר המכיל הסברים בשפה פשוטה וקלה בנושאים הבסיסיים הקשורים לעולם האנימה" />
+    <meta name="keywords" content="anime, information, hebrew" />
+    <meta name="author" content="Anna Strijko Eden Barayev Tamir Deutsch" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link rel="icon" href="pictures/favicon.png">
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">
+
+
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+</head>
+
+<body onload="tab_nav()">
+    <div id="container" class="container">
+
+        <header>
+            <h1 id="mainHead">אני-מה?</h1>
+            <p>להכיר את עולם האנימה בשפה העברית</p>
+            <a href="#contantStart" id="jumpToContent">דלג לתוכן</a>
+            <nav id="top">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="active-page">דף הבית</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="notPage" href="#">מהי אנימה?</a>
+                        <ul>
+                            <li><a href="history.html">הסטוריה</a></li>
+                            <li><a href="MessageAndPrinciple.html">מסרים וערכים</a></li>
+                            <li><a class="notActiveTopNav" href="#">מאפייני האנימה</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="notPage" href="#">סדרות מומלצות</a>
+                        <ul>
+                            <li>
+                                <a href="ActionGenre.html">אקשן</a>
+                                <ul class="verySubNav">
+                                    <li><a href="NarutoPage.html">נארוטו</a></li>
+                                    <li><a class="notActiveTopNav" href="#">פרי טייל</a></li>
+                                    <li><a class="notActiveTopNav" href="#">מתקפת הטיטאנים</a></li>
+                                    <li><a class="notActiveTopNav" href="#">דרגון בול</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="notActiveTopNav" href="#">רומנטיקה</a>
+                                <ul class="verySubNav">
+                                    <li><a class="notActiveTopNav" href="#">להחסיר פעימה</a></li>
+                                    <li><a class="notActiveTopNav" href="#">סיפור האהבה שלי</a></li>
+                                    <li><a class="notActiveTopNav" href="#">ימי בית ספר</a></li>
+                                    <li><a class="notActiveTopNav" href="#">אנג'ליק</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="notActiveTopNav" href="#">אימה</a>
+                                <ul class="verySubNav">
+                                    <li><a class="notActiveTopNav" href="#">מחברת המוות</a></li>
+                                    <li><a class="notActiveTopNav" href="#">קוד גיאז</a></li>
+                                    <li><a class="notActiveTopNav" href="#">טוקיו גול</a></li>
+                                    <li><a class="notActiveTopNav" href="#">פסיכו'פס</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="notActiveTopNav" href="#">הרפתקאות</a>
+                                <ul class="verySubNav">
+                                    <li><a class="notActiveTopNav" href="#">אין משחק אין חיים</a></li>
+                                    <li><a class="notActiveTopNav" href="#">וואן פיס</a></li>
+                                    <li><a class="notActiveTopNav" href="#">טריגאן</a></li>
+                                    <li><a class="notActiveTopNav" href="#">ויולט אברגארדן</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="notActiveTopNav" href="#">מדע בדיוני</a>
+                                <ul class="verySubNav">
+                                    <li><a class="notActiveTopNav" href="#">אוונגליון</a></li>
+                                    <li><a class="notActiveTopNav" href="#">כהה יותר משחור</a></li>
+                                    <li><a class="notActiveTopNav" href="#">כתר אשם</a></li>
+                                    <li><a class="notActiveTopNav" href="#">הרוח במעטפת</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="notPage" href="#">מילון מושגים</a>
+                        <ul>
+                            <li><a href="Dictionary.html">מושגים בסיסיים</a></li>
+                            <li><a class="notActiveTopNav" href="#">ז'אנרים מיוחדים</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="notActiveTopNav" id="forumFix" href="#">פורום</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <article>
+            <section>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <section id="firstSlide">
+                                <div id="firstSlideTxt">
+                                    <h2 id="contantStart">המילה היומית:</h2>
+                                    <p>
+                                        <span id="OtakuHebrew"><img id="OtakuSound" aria-describedby="myfield_description" tabindex="0" src="pictures/soundicon.png" alt="תמונת כפתור של רמקול" value="PLAY" onclick="play()" /> <img src="pictures/otaku.png" alt="japanese word Otaku written in english and hebrew" height="60" width="280" /> </span><br
+                                        /> פירוש: מעריץ אובססיבי של אנימה
+                                    </p>
+                                    <audio id="audio" src="sounds/otaku.ogg"></audio>
+
+                                </div>
+                                <div id="firstSlidePic">
+                                    <img src="pictures/otaku girl.png" alt="תמונה של ילדת אנימה מחייכת" height="280" width="280" />
+                                    <div class="tooltipCCSlide1" aria-describedby="myfield_description" tabindex="0">
+                                        <img id="copyRightImgSlide1" alt="תמונת זכויות יוצרים " src="pictures/credits.png" width="45" height="40">
+                                        <span class="tooltiptextCCSlide1">התמונה תחת הרישיון: <a rel="license" href="https://creativecommons.org/licenses/by/2.0/deed.en">CC BY 2.0</a><br /> שם יוצר:<a href="https://en.wikipedia.org/wiki/File:Wikipe-tan_frontview.png">Kasuga~commonswiki</a></span>
+                                    </div>
+                                </div>
+                                <label>
+                                    <a id="aFIRST" href="Dictionary.html">
+                                        לעוד מילים מעניינות
+                                    </a>
+                                </label>
+                            </section>
+                        </div>
+                        <div class="carousel-item">
+                            <section id="SecSlide">
+                                <div id="SecSlideTxt">
+                                    <h2>
+                                        ה-1 בינואר 1907
+                                    </h2>
+                                    <p>
+                                        האנימציה הראשונה בעולם
+                                        <br /> נוצרה! <br /> היא ארכה רק 3 שניות בהן מלח
+                                        <br /> מוריד את הכובע שלו
+
+
+                                    </p>
+
+                                </div>
+                                <div id="SecSlidePic">
+                                    <img src="pictures/history girl.png" alt="ילדת אנימה מחזיקה תמונה של האנימה הראשונה שנוצרה" height="418" width="320" />
+                                    <div class="tooltipCCSlide2" aria-describedby="myfield_description" tabindex="0">
+                                        <img id="copyRightImgSlide2" alt="תמונת זכויות יוצרים  " src="pictures/credits.png" width="45" height="40">
+                                        <span class="tooltiptextCCSlide2">התמונה תחת הרישיון: <a rel="license" href="https://creativecommons.org/licenses/by/2.0/deed.en">CC BY 2.0</a><br /> שם יוצר:<a href="https://en.wikipedia.org/wiki/File:Wikipe-tan_holding_sign.png">Kasuga~commonswiki</a></span>
+                                    </div>
+                                </div>
+                                <label id="SecSlLab">
+                                    <a href="history.html">
+                                        עוד בחיי האנימה
+                                    </a>
+                                </label>
+                            </section>
+
+                        </div>
+                        <div class="carousel-item ">
+                            <section id="ThirdSlide">
+                                <div id="ThirdSlideTxt">
+                                    <h2>
+                                        מה אנימה מלמדת אותנו?
+                                    </h2>
+                                    <p id="pAsHeader">
+                                        שיעור מספר 1: תאמין בעצמך!
+                                    </p>
+                                    <p>
+                                        שיעור מספר אחד שנמצא כמעט <br />בכל אנימה. כל אחד צריך להאמין <br /> בעצמו. מי יודע, אולי תהיה הגיבור <br /> על הבא?
+
+                                    </p>
+
+                                </div>
+                                <div id="ThirdSlidePic">
+                                    <img src="pictures/life lesson girl.png" alt="ילדת אנימה המסבירה שיעור לחיים" height="280" width="300" />
+                                    <div class="tooltipCCSlide3" aria-describedby="myfield_description" tabindex="0">
+                                        <img id="copyRightImgSlide3" alt="זכויות יוצרים " src="pictures/credits.png" width="45" height="40">
+                                        <span class="tooltiptextCCSlide3">התמונה תחת הרישיון: <a rel="license" href="https://creativecommons.org/licenses/by/2.0/deed.en">CC BY 2.0</a><br /> שם יוצר:<a href="https://en.wikipedia.org/wiki/File:Don%27t_abbreviate_as_Wiki.png">Kasuga~commonswiki</a></span>
+                                    </div>
+                                </div>
+                                <label id="ThirdSlLab">
+                                    <a href="MessageAndPrinciple.html">
+                                        לעוד שיעורים לחיים
+                                    </a>
+                                </label>
+                            </section>
+                        </div>
+
+
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+
+            </section>
+
+            <section id="secSection">
+                <h2>
+                    ז'אנרים פופולאריים
+                </h2>
+                <section id="refGan">
+                    <h3>רומנטיקה</h3>
+                    <hr>
+                    <div><img src="pictures/romantic anime.jpg" alt="קטע מתוך אנימה של בחור ובחורה בפרופיל צד אחד מול השני " width="228" height="135" /></div>
+                    <div class="tooltipCCref" aria-describedby="myfield_description" tabindex="0">
+                        <img class="copyRightImgref" alt="תמונת זכויות יוצרים " src="pictures/credits.png" width="45" height="40">
+                        <span class="tooltiptextCCref">בעלי רישיון <a rel="license" href=" http://www.aniplexusa.com/ ">Aniplex USA</a><br /><a href="http://ultramunch.com/top-12-romance-anime-enjoy-valentines-day/">מקור התמונה</a></span>
+                    </div>
+                    <p>
+                        זה בדיוק איך שזה נשמע. בסדרות מסוג זה העלילה היא סביב זוג שמתאהבים. הז'אנר הזה מאוד פופולארי בקרב נערות צעירות וביפנית יש לו שם מיוחד: "שוג'ו".
+                    </p>
+                    <label>
+                        <a href="" class="notActive">
+                            לסדרות מומלצות
+                        </a>
+                    </label>
+                </section>
+                <section id="refGan">
+                    <h3>
+                        אקשן
+                    </h3>
+                    <hr>
+                    <div><img src="pictures/action anime.jpg" alt="תמונה מתוך אנימה של שני בנים המתחילים להילחם אחד בשני" width="228" height="135" /></div>
+                    <div class="tooltipCCref" aria-describedby="myfield_description" tabindex="0">
+                        <img class="copyRightImgref" alt="זכויות יוצרים " src="pictures/credits.png" width="45" height="40">
+                        <span class="tooltiptextCCref">בעלי רישיון <a rel="license" href="http://www.sonypictures.com/">Sony Pictures Home Entertainment</a><br /> <a href="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwjSsPC_ntvbAhUBKVAKHSOTBSwQjhx6BAgBEAM&url=https%3A%2F%2Fanitrendz.net%2Fnews%2F2018%2F02%2F02%2Fmy-hero-academia-detroit-smash-into-anime-of-the-year%2Fdeku-vs-todoroki%2F&psig=AOvVaw36rv0irNWYMI__68KhMF6w&ust=1529343407943178">מקור התמונה</a></span>
+                    </div>
+                    <p>
+                        ז'אנר קלאסי שמשלב בדרך כלל אומנויות לחימה וגיבור מרכזי אחד. הז'אנר הזה מאוד פופולארי בקרב נערים צעירים וביפנית יש לו שם מיוחד: "שונן".
+                    </p>
+                    <label>
+                        <a href="ActionGenre.html">
+                            לסדרות מומלצות
+                        </a>
+                    </label>
+                </section>
+                <section id="refGan" class="marcoCol">
+                    <h3>הרפתקאות</h3>
+                    <hr>
+                    <div><img src="pictures/adventure anime.jpg" alt="תמונה מתוך אנימה המראה ילד בשם מרקו " width="228" height="135" /></div>
+                    <div class="tooltipCCref" aria-describedby="myfield_description" tabindex="0">
+                        <img class="copyRightImgref" alt="זכויות יוצרים " src="pictures/credits.png" width="45" height="40">
+                        <span class="tooltiptextCCref">בעלי רישיון <a rel="license" href="http://www.nipponanimation.com/">Nippon Animation co., LTD</a><br /> <a href="https://www.animenewsnetwork.com/encyclopedia/anime.php?id=436">מקור התמונה</a></span>
+                    </div>
+                    <p>
+                        הז'אנר המוכר מכולם! הוא אפילו חדר למדינות מעבר ליפן. כולל בתוכו סדרות כמו: הלב (מרקו) ונילס הולגרסון. מה שמאפיין אותו, כמובן, זה ההרפתקאות של הגיבור הראשי.
+                    </p>
+                    <label>
+                        <a href="" class="notActive">
+                            לסדרות מומלצות
+                        </a>
+                    </label>
+                </section>
+
+            </section>
+
+
+
+        </article>
+
+        <footer>
+            <nav id="footerNav">
+                <ul>
+
+                    <li><a href="siteMap.html">מפת האתר</a></li>
+                    <li><a href="about.html">אודות</a></li>
+                    <li><a href="contactUs.html">צור קשר</a></li>
+                </ul>
+            </nav>
+        </footer>
+
+    </div>
+</body>
+
+</html>
