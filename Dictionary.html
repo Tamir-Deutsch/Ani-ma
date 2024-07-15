@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title> אני-מה מילון מושגים</title>
+    <meta name="description" content="עמוד הכולל בתוכו מושגים מעולם האנימה " />
+    <meta name="keywords" content="anime, information, hebrew, dictionary , terms " />
+    <meta name="author" content="Anna Strijko, Eden Barayev ,Tamir Deutsch" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+    <!-- CSS -->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link rel="icon" href="pictures/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">
+
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+</head>
+<body onload="tab_nav()">
+    <div id="container" class="container">
+        <a href="#contantStart" id="jumpToContent">דלג לתוכן</a>
+        <header>
+            <div id="mainHead">אני-מה?</div>
+            <p>להכיר את עולם האנימה בשפה העברית</p>
+
+            <nav id="top">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="index.html">דף הבית</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="notPage" href="#">מהי אנימה?</a>
+                        <ul class="sub-menu">
+                            <li><a href="history.html">הסטוריה</a></li>
+                            <li><a href="MessageAndPrinciple.html">מסרים וערכים</a></li>
+                            <li><a class="notActiveTopNav" href="#">מאפייני האנימה</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="notPage" href="#">סדרות מומלצות</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="ActionGenre.html">אקשן</a>
+                                <ul class="verySubNav">
+                                    <li><a href="NarutoPage.html">נארוטו</a></li>
+                                    <li><a class="notActiveTopNav" href="#">פרי טייל</a></li>
+                                    <li><a class="notActiveTopNav" href="#">מתקפת הטיטאנים</a></li>
+                                    <li><a class="notActiveTopNav" href="#">דרגון בול</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="notActiveTopNav" href="#">רומנטיקה</a>
+                                <ul class="verySubNav">
+                                    <li><a class="notActiveTopNav" href="#">להחסיר פעימה</a></li>
+                                    <li><a class="notActiveTopNav" href="#">סיפור האהבה שלי</a></li>
+                                    <li><a class="notActiveTopNav" href="#">ימי בית ספר</a></li>
+                                    <li><a class="notActiveTopNav" href="#">אנג'ליק</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="notActiveTopNav" href="#">אימה</a>
+                                <ul class="verySubNav">
+                                    <li><a class="notActiveTopNav" href="#">מחברת המוות</a></li>
+                                    <li><a class="notActiveTopNav" href="#">קוד גיאז</a></li>
+                                    <li><a class="notActiveTopNav" href="#">טוקיו גול</a></li>
+                                    <li><a class="notActiveTopNav" href="#">פסיכו'פס</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="notActiveTopNav" href="#">הרפתקאות</a>
+                                <ul class="verySubNav">
+                                    <li><a class="notActiveTopNav" href="#">אין משחק אין חיים</a></li>
+                                    <li><a class="notActiveTopNav" href="#">וואן פיס</a></li>
+                                    <li><a class="notActiveTopNav" href="#">טריגאן</a></li>
+                                    <li><a class="notActiveTopNav" href="#">ויולט אברגארדן</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="notActiveTopNav" href="#">מדע בדיוני</a>
+                                <ul class="verySubNav">
+                                    <li><a class="notActiveTopNav" href="#">אוונגליון</a></li>
+                                    <li><a class="notActiveTopNav" href="#">כהה יותר משחור</a></li>
+                                    <li><a class="notActiveTopNav" href="#">כתר אשם</a></li>
+                                    <li><a class="notActiveTopNav" href="#">הרוח במעטפת</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="notPage" href="#">מילון מושגים</a>
+                        <ul class="sub-menu">
+                            <li><a class="active-page" href="Dictionary.html">מושגים בסיסיים</a></li>
+                            <li><a class="notActiveTopNav" href="#">ז'אנרים מיוחדים</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="notActiveTopNav" id="forumFix" href="#">פורום</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <article id="DictionaryContant">
+
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li  class="breadcrumb-item"><a href="#" id="breadNotActive">מילון מושגים</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">מושגים בסיסיים</li>
+                </ol>
+            </nav>
+            <h1 id="contantStart">
+                מושגים בסיסיים בעולם האנימה
+            </h1>
+
+            <table>
+
+                <tr>
+                    <td class="firstTxt" aria-describedby="myfield_description" tabindex="0" >
+                        <img class="imagehover" src="pictures/otakuroom.jpg"  alt="שתי בובות פלסטיק דמוי גיבורות מסדרת אנימה" width="220" height="200" style="border:5px solid white" />
+                        <div class="tooltipCC" aria-describedby="myfield_description" tabindex="0" >
+                            <img class="copyRightImg" alt="תמונת זכויות יוצרים " src="pictures/credits.png" width="45" height="40">
+                            <span role="tooltip" class="tooltiptextCC">התמונה תחת הרישיון: <a rel="license" href="https://creativecommons.org/licenses/by/2.0/deed.en">CC BY 2.0</a><br /> שם יוצר:<a href="https://www.flickr.com/photos/dannychoo/6639739519">Danny Choo</a></span>
+                        </div>
+
+                        <div class="covertTxt" >
+                            <p  class="TxtHover">
+                                <span>אוֹטַאקוּ:</span>
+                                מעריץ אובססיבי של אנימה.
+                            </p>
+                        </div>
+                        <p>
+                            <img class="OtakuSound" aria-describedby="myfield_description" tabindex="0" src="pictures/soundicon.png" alt="תמונת כפתור של רמקול" value="PLAY" onclick="play1()"> אוֹטַאקוּ
+
+                            <audio id="audio1" src="sounds/otaku.ogg"></audio>
+                            <audio id="audio1" src="sounds/otaku.mp3"></audio>
+                        </p>
+
+                    </td>
+                    <td class="firstTxt" aria-describedby="myfield_description" tabindex="0">
+                        <img class="imagehover" src="pictures/movie.jpg" alt="תמונה של פלים של סרט" width="220" height="200" style="border:5px solid white" />
+                        <div class="tooltipCC" aria-describedby="myfield_description" tabindex="0">
+                            <img class="copyRightImg" alt="תמונת זכויות יוצרים " src="pictures/credits.png" width="45" height="40">
+                            <span class="tooltiptextCC">התמונה תחת הרישיון: <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a><br /> שם יוצר:<a href="https://commons.wikimedia.org/wiki/File:35mm_movie_negative.jpg">Runner1616</a></span>
+                        </div>
+                        <div class="covertTxt">
+                            <p class="TxtHover">
+                                <span>OVA-</span>
+
+                                סרט  או המשך לסדרת אנימה.
+                                בדרך כלל אין הרבה OVA לסדרה אחת ולרוב לא קשור לעלילה המרכזית.
+
+                            </p>
+                        </div>
+                        <p>
+                            <img class="OtakuSound" src="pictures/soundicon.png" aria-describedby="myfield_description" tabindex="0" alt="תמונת כפתור של רמקול" value="PLAY" onclick="play2()">
+                            OVA
+                            <audio id="audio2" src="sounds/OVA.ogg"></audio>
+                        </p>
+
+                    </td>
+                    <td class="firstTxt" aria-describedby="myfield_description" tabindex="0">
+                        <img class="imagehover" src="pictures/doujinshi.jpg"  alt="תמונה של סטריפ קומיקס יפני חובבני בשחור לבן" width="220" height="200" style="border:5px solid white" />
+                        <div class="tooltipCC" aria-describedby="myfield_description" tabindex="0">
+                            <img class="copyRightImg" alt="תמונת זכויות יוצרים " src="pictures/credits.png" width="45" height="40">
+                            <span class="tooltiptextCC">התמונה תחת הרישיון: <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a><br /> שם יוצר:<a href="https://lainbascud.deviantart.com/art/Train-Me-01-89270671">LainBascud</a></span>
+                        </div>
+                        <div class="covertTxt">
+                            <p class="TxtHover">
+                                <span>
+                                    דוֹגִ'ינְשִׁי  -
+                                </span>
+                                סרט  או המשך לסדרת אנימה.
+                                בדרך כלל אין הרבה OVA לסדרה אחת ולרוב לא קשור לעלילה המרכזית.
+                            </p>
+                        </div>
+                        <p>
+                            <img class="OtakuSound" src="pictures/soundicon.png" aria-describedby="myfield_description" tabindex="0" alt="תמונת כפתור של רמקול" value="PLAY" onclick="play3()"> דוֹגִ'ינְשִׁי
+                        </p>
+                        <audio id="audio3" src="sounds/dijinshi.ogg"></audio>
+
+                    </td>
+                    <td class="firstTxt" aria-describedby="myfield_description" tabindex="0">
+                        <img class="imagehover" src="pictures/fansub.jpg"  alt="צילום מסך של כתוביות ביפנית ובאנגלית כתרגום של הכתוביות היפניות" width="220" height="200" style="border:5px solid white" />
+                        <div class="tooltipCC" aria-describedby="myfield_description" tabindex="0">
+                            <img class="copyRightImg" alt="תמונת זכויות יוצרים " src="pictures/credits.png" width="45" height="40">
+                            <span class="tooltiptextCC">התמונה תחת הרישיון: <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a><br /> שם יוצר:<a href="https://commons.wikimedia.org/wiki/File:Wikipe-tananime.png">Aerii</a></span>
+                        </div>
+                        <div class="covertTxt">
+                            <p class="TxtHover">
+                                <span>
+                                    פַאנְסָאבּ -
+                                </span>
+                                תרגום חובבני של מעריצים לאנימה.
+                                זו אחת הדרכים של האנימה לפרסם את עצמה בעולם.
+                            </p>
+                        </div>
+                        <p>
+                            <img class="OtakuSound" src="pictures/soundicon.png" aria-describedby="myfield_description" tabindex="0"  alt="תמונת כפתור של רמקול" value="PLAY" onclick="play4()"> פַאנְסָאבּ
+                        </p>
+                        <audio id="audio4" src="sounds/fansub.ogg"></audio>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="firstTxt" aria-describedby="myfield_description" tabindex="0">
+                        <img class="imagehover" src="pictures/fillers.jpg"  alt="תמונה של ערימת דפים כמטאפורה לערימת פרקים" width="220" height="200" style="border:5px solid white" />
+
+                        <div class="covertTxt">
+                            <p class="TxtHover">
+                                <span>
+                                    פִילֵר  -
+                                </span>
+                                פרק בסדרת אנימה עם תוכן שלא קשור לעלילה המרכזית. המטרה של הפילרים היא למלא סדרות ביותר פרקים.
+                            </p>
+                        </div>
+                        <p>
+                            <img class="OtakuSound" src="pictures/soundicon.png" aria-describedby="myfield_description" tabindex="0"  alt="תמונת כפתור של רמקול" value="PLAY" onclick="play5()"> פִילֵר
+                        </p>
+                        <audio id="audio5" src="sounds/filler.ogg"></audio>
+
+
+                    </td>
+                    <td class="firstTxt" aria-describedby="myfield_description" tabindex="0">
+                        <img class="imagehover" src="pictures/manga.png"  alt="תמונה של דמות של אישה מתוך קומיקס יפני בשחור לבן" width="220" height="200" style="border:5px solid white" />
+                        <div class="tooltipCC" aria-describedby="myfield_description" tabindex="0">
+                            <img class="copyRightImg" alt="תמונת זכויות יוצרים " src="pictures/credits.png" width="45" height="40">
+                            <span class="tooltiptextCC">התמונה תחת הרישיון: <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a><br /> שם יוצר:<a href="https://commons.wikimedia.org/wiki/File:Figure_in_Manga_style.png">Niabot</a></span>
+                        </div>
+                        <div class="covertTxt">
+                            <p class="TxtHover">
+                                <span>
+                                    מַאנְגָה  -
+                                </span>
+                                קומיקס יפני, עליו מבוססת האנימה.
+                                מאנגה מצוירת בשחור לבן ונקראת מימין לשמאל – כמו בעברית.
+                            </p>
+                        </div>
+                        <p>
+                            <img class="OtakuSound" src="pictures/soundicon.png" aria-describedby="myfield_description" tabindex="0" alt="תמונת כפתור של רמקול" value="PLAY" onclick="play6()"> מַאנְגָה
+                        </p>
+                        <audio id="audio6" src="sounds/manga.ogg"></audio>
+                    </td>
+                    <td class="firstTxt" aria-describedby="myfield_description" tabindex="0">
+                        <img class="imagehover" src="pictures/mangaka.jpg"  alt="אילוסטרציה בשחור לבן של סופר קומיקס יפני המסובב את העיפרון שלו" width="220" height="200" style="border:5px solid white" />
+                        <div class="tooltipCC" aria-describedby="myfield_description" tabindex="0">
+                            <img class="copyRightImg" alt="תמונת זכויות יוצרים " src="pictures/credits.png" width="45" height="40">
+                            <span class="tooltiptextCC">התמונה תחת הרישיון: <a rel="license" href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</a><br /> <a href="https://www.maxpixel.net/Digital-Design-Turn-Pen-Character-Anime-Manga-976930"> </a></span>
+                        </div>
+                        <div class="covertTxt">
+                            <p class="TxtHover">
+                                <span>
+                                    מַאנְגָאקַה  -
+                                </span>
+                                כותב ומאייר מאנגה.
+                            </p>
+                        </div>
+                        <p>
+                            <img class="OtakuSound" src="pictures/soundicon.png" aria-describedby="myfield_description" tabindex="0" alt="תמונת כפתור של רמקול" value="PLAY" onclick="play7()"> מַאנְגָאקַה
+                        </p>
+                        <audio id="audio7" src="sounds/mangaka.ogg"></audio>
+
+                    </td>
+                    <td class="firstTxt" aria-describedby="myfield_description" tabindex="0">
+                        <img class="imagehover" src="pictures/cosplay.jpg"  alt="תמונה של בחורה מחופשת לדמות מתוך אנימה" width="220" height="200" style="border:5px solid white" />
+                        <div class="tooltipCC" aria-describedby="myfield_description" tabindex="0">
+                            <img class="copyRightImg" alt="תמונת זכויות יוצרים " src="pictures/credits.png" width="45" height="40">
+                            <span class="tooltiptextCC">התמונה תחת הרישיון: <a rel="license" href="https://creativecommons.org/licenses/by/2.0/deed.en">CC BY 2.0</a><br /> שם יוצר:<a href="https://commons.wikimedia.org/wiki/File:Paris_Manga_9_-Cosplay-_Alisa_Bosconovitch_(4339275832).jpg">Omarukai</a></span>
+                        </div>
+                        <div class="covertTxt">
+                            <p class="TxtHover">
+                                <span>
+                                    קוֹסְפלֶיי  -
+                                </span>
+                                מושג המתאר מעריצים המתחפשים לדמויות מאנימה, מאנגה וממשחקים ידועים.
+                            </p>
+                        </div>
+                        <p>
+                            <img class="OtakuSound" src="pictures/soundicon.png" aria-describedby="myfield_description" tabindex="0" alt="תמונת כפתור של רמקול" value="PLAY" onclick="play8()"> קוֹסְפלֶיי
+                        </p>
+                        <audio id="audio8" src="sounds/cosplay.ogg"></audio>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="firstTxt" aria-describedby="myfield_description" tabindex="0">
+                        <img class="imagehover" src="pictures/Sound_wave.jpg"  alt="תמונה של גל קול " width="220" height="200" style="border:5px solid white" />
+                        <div class="tooltipCC" aria-describedby="myfield_description" tabindex="0">
+                            <img class="copyRightImg" alt="תמונת זכויות יוצרים " src="pictures/credits.png" width="45" height="40">
+                            <span class="tooltiptextCC">התמונה תחת הרישיון: <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a><br /> שם יוצר:<a href="https://commons.wikimedia.org/wiki/File:Sound_wave.jpg">Luis Lima89989</a></span>
+                        </div>
+                        <div class="covertTxt">
+                            <p class="TxtHover">
+                                <span>
+                                    אָנִיסוֹן  -
+                                </span>
+                                שיר או פסקול המיוצר במיוחד בשביל אנימה. השם בא מצירוף של המילים "אנימה" ו- "סונג" (שיר באנגלית)
+                            </p>
+                        </div>
+                        <p>
+                            <img class="OtakuSound" src="pictures/soundicon.png" aria-describedby="myfield_description" tabindex="0" alt="תמונת כפתור של רמקול" value="PLAY" onclick="play9()"> אָנִיסוֹן
+                        </p>
+                        <audio id="audio9" src="sounds/anison.ogg"></audio>
+
+                    </td>
+                    <td class="firstTxt" aria-describedby="myfield_description" tabindex="0">
+                        <img class="imagehover" src="pictures/liveaction.jpg"  alt="קבוצה של אנשים המחופשים לדמויות שונות הנמצאים ביער" width="220" height="200" style="border:5px solid white" />
+                        <div class="tooltipCC" aria-describedby="myfield_description" tabindex="0">
+                            <img class="copyRightImg" alt="תמונת זכויות יוצרים " src="pictures/credits.png" width="45" height="40">
+                            <span class="tooltiptextCC">התמונה תחת הרישיון: <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY 4.0</a><br /> שם יוצר:<a href="https://commons.wikimedia.org/wiki/File:Hardenstein_2014_-_Adventurers.jpg">RalfHuels (photographer), Anja Arenz, Chris Kunz, Dossmo, Niamh, Paolo Tratzky, Svenja Schoenmackers</a></span>
+                        </div>
+                        <div class="covertTxt">
+                            <p class="TxtHover">
+                                <span>
+                                    לָייב אֵקְשֶׁן  -
+                                </span>
+                                סרט עם שחקנים יפנים אמיתיים המבוסס על סדרת אנימה.
+                            </p>
+                        </div>
+                        <p>
+                            <img class="OtakuSound" src="pictures/soundicon.png" aria-describedby="myfield_description" tabindex="0" alt="תמונת כפתור של רמקול" value="PLAY" onclick="play10()"> לָייב אֵקְשֶׁן
+
+                        </p>
+                        <audio id="audio10" src="sounds/liveaction.ogg"></audio>
+                    </td>
+                    <td class="firstTxt" aria-describedby="myfield_description" tabindex="0">
+                        <img class="imagehover" src="pictures/san.jpg"  alt="תמונה של טקסט שבו רשום יוקי-סאן" width="220" height="200" style="border:5px solid white" />
+                        <div class="covertTxt">
+                            <p class="TxtHover">
+                                <span>
+                                    סַאן  -
+                                </span>
+                                מילה שמוסיפים בסוף השם המראה רכישת כבוד. לדוגמא: "ישראל-סאן"
+                            </p>
+                        </div>
+                        <p>
+                            <img class="OtakuSound" src="pictures/soundicon.png" aria-describedby="myfield_description" tabindex="0" alt="תמונת כפתור של רמקול" value="PLAY" onclick="play11()"> סַאן
+                        </p>
+                        <audio id="audio11" src="sounds/san.ogg"></audio>
+                    </td>
+                    <td class="firstTxt" aria-describedby="myfield_description" tabindex="0">
+                        <img class="imagehover" src="pictures/Sensei.png"  alt="תמונה של מורה דרך\נזיר " width="220" height="200" style="border:5px solid white" />
+                        <div class="tooltipCC" aria-describedby="myfield_description" tabindex="0">
+                            <img class="copyRightImg" alt="תמונת זכויות יוצרים " src="pictures/credits.png" width="45" height="40">
+                            <span class="tooltiptextCC">התמונה תחת הרישיון: <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a><br /> שם יוצר:<a href="https://commons.wikimedia.org/wiki/File:Shugen_Sensei.png">Dharma Communications</a></span>
+                        </div>
+                        <div class="covertTxt">
+                            <p class="TxtHover">
+                                <span>
+                                    סֶנְסֵיי    -
+                                </span>
+                                תוספת מכבדת לשם של מורה. למשל, במקום לומר "המורה צילה" אז אומרים "צילה-סנסיי".
+                            </p>
+                        </div>
+                        <p>
+                            <img class="OtakuSound" src="pictures/soundicon.png" aria-describedby="myfield_description" tabindex="0" alt="תמונת כפתור של רמקול"  value="PLAY" onclick="play12()"> סֶנְסֵיי
+                        </p>
+                        <audio id="audio12" src="sounds/sensei.ogg"></audio>
+                    </td>
+                </tr>
+
+            </table>
+
+
+
+        </article>
+
+        <footer>
+            <nav id="footerNav">
+                <ul>
+
+                    <li><a href="siteMap.html">מפת האתר</a></li>
+                    <li><a href="about.html">אודות</a></li>
+                    <li><a href="contactUs.html">צור קשר</a></li>
+                </ul>
+            </nav>
+        </footer>
+
+    </div>
+</body>
+</html>
